@@ -192,3 +192,11 @@ Python · pytest · pytest-asyncio · [DeepEval](https://github.com/confident-ai
 [MIT](https://opensource.org/licenses/MIT)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
+
+## About the Creator
+
+Built out of curiosity for how far a locked, narrow evaluation rubric can push consistency in LLM-as-a-judge systems.
+
+- LinkedIn: https://www.linkedin.com/in/jayme-hall/
+- GitHub: https://github.com/jaymehall/
+- Website: [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
