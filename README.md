@@ -186,3 +186,9 @@ This is a **code-only export** — the evaluation prompts, judge classes, DeepEv
 ## Stack
 
 Python · pytest · pytest-asyncio · [DeepEval](https://github.com/confident-ai/deepeval) · [Pydantic](https://docs.pydantic.dev/) · OpenAI structured outputs
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
