@@ -20,8 +20,8 @@ flowchart LR
     T --> ER
 
     ER --> GATE{"score >= threshold\nfor all 3?"}
-    GATE -->|yes| PASS["PASS — release gate clears"]
-    GATE -->|no| FAIL["FAIL — rubric report\nshows violations"]
+    GATE -->|yes| PASS["PASS: release gate clears"]
+    GATE -->|no| FAIL["FAIL: rubric report\nshows violations"]
 ```
 
 | Judge | Metric | Threshold | Question it answers |
@@ -46,7 +46,7 @@ A closed, inline-prefix vocabulary (`UNGROUNDED`, `MISSING`, `WRONG`, `FORBIDDEN
 
 ```
 graph/judges/                  Locked-rubric LLM judges (the evaluation engine)
-├── base.py                    BaseJudge / LockedRubricJudge — prompt+schema → structured LLM call
+├── base.py                    BaseJudge / LockedRubricJudge: prompt+schema → structured LLM call
 ├── faithfulness_judge.py      Precision: claims must trace to tool_results or prompt_context
 ├── answer_relevancy_judge.py  Recall: response must cover every ground-truth item
 ├── tool_fulfillment_judge.py  Tool-call pattern vs. question intent
